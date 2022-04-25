@@ -18,8 +18,8 @@ alpha-bits                 0
 stencil-bits               0
 multisamples               0
 
-notify-level               warning
-default-directnotify-level warning
+notify-level               info
+default-directnotify-level info 
 
 model-path                 $MAIN_DIR
 
@@ -33,8 +33,8 @@ use-movietexture           #t
 
 hardware-animated-vertices #f
 
-model-cache-dir            $XDG_CACHE_HOME/panda3d
-model-cache-textures       #f
+model-cache-dir            $MAIN_DIR/panda3d-cache
+model-cache-textures       true
 
 basic-shaders-only         #f
 
@@ -45,4 +45,4 @@ textures-auto-power-2      1
 textures-power-2           down
 
 sync-flip                  #f
-sync-video                 #f
+sync-video                 #t

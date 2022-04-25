@@ -9,3 +9,6 @@ blends/**
 !blends/mill-scene/mill-scene-low-poly-backup.blend
 
 lib
+
+
+**/panda3d-cache/**

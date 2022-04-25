@@ -9,7 +9,6 @@ clang++ \
   -std=gnu++11 \
   -O3 \
   -arch x86_64 \
-  -I/usr/include/python3.9/ \
   -I$P3D_INCLUDE_PATH
 
 clang++ \
@@ -26,12 +25,4 @@ clang++ \
   -lp3dtool \
   -lpthread
 
-
-cd ..
-
-if [ -f lib ]
-then
-  rm lib
-fi
-
-ln -s $P3D_LIB_PATH lib
+./3d-game-shaders-for-beginners
