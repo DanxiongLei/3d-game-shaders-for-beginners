@@ -3,7 +3,7 @@ load-display               pandagl
 audio-library-name         p3openal_audio
 
 win-origin                 -2 -2
-win-size                   1200 900
+win-size                   720 540
 
 fullscreen                 #f
 
@@ -27,7 +27,7 @@ want-directtools           #f
 want-tk                    #f
 
 want-pstats                #f
-show-frame-rate-meter      #f
+show-frame-rate-meter      #t
 
 use-movietexture           #t
 
