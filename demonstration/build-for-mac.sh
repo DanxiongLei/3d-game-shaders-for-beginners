@@ -25,4 +25,11 @@ clang++ \
   -lp3dtool \
   -lpthread
 
+
+if [ ! -h ../lib ]
+then
+echo "ln -s"
+ln -s $P3D_LIB_PATH ../lib
+fi
+
 ./3d-game-shaders-for-beginners
